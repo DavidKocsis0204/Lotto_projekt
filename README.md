@@ -1,2 +1,2 @@
 # Lotto_projekt
-kljfdks
+dokumentáció helye
