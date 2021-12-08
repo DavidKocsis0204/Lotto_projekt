@@ -4,13 +4,24 @@
     background-color:rgb(66, 66, 66);
     max-width: 535px;
     padding: 0;
-    line-height: 55px;
+    line-height: 62px;
+    width: 480px;
 }
 
 #lottokep{
-    width: 535px;
     height: auto;
     padding: 0;
+    width: 480px;
+
+}
+
+#menu hr{ display: block;
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid black;
+    
+    padding: 0; 
+    width: 90%;
 }
 
 #menu a{
@@ -18,13 +29,6 @@
     color: white;
     margin:15px;
     margin-left: 25px;
-}
-
-#menu hr{
-    width: 90%;
-    border-radius: 15px;
-    border-color: black;
-
 }
 
 body{
