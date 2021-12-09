@@ -1,6 +1,6 @@
 import csv
 
-with open('H:\Python\otos.csv', 'r') as file:
+with open('D:\Git KD\Lotto_projekt\csv','r') as file:
     reader = csv.reader(file)
     tomb=[]
     for row in reader:
