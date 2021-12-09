@@ -1,13 +1,14 @@
 import csv
 
-with open('D:\Git KD\Lotto_projekt\csv','r') as file:
+with open('H:\Python\otos.csv', 'r') as file:
     reader = csv.reader(file)
     tomb=[]
+    line=0
     for row in reader:
+        if  line==0:
+            continue
         tomb.append(row)
-#print(tomb)
-    print(tomb[1])
-
-tomb_two=[[1,6,7][1,2,3,4]]
-print(tomb_two[1][2])    
-
+#Beolvasás--------------------------
+    sro=str(tomb[1]).split(';')
+    print(sro[11:16])
+#Lekérdezés_1-----------------------
