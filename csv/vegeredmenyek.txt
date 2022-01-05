@@ -4,4 +4,8 @@ Korábbi sorsolások
     Multheti nyerő számok:    
         30;57;58;61;86;
     Leggyakoribb számok:
+        29 208db
+        3  218db
+        1  209db
+    Leghasonlóbb számsorok:
         
