@@ -44,6 +44,6 @@ with open('D:\GitKd\Lotto_projekt\csv\otos.csv', 'r') as file:
     
     for i in range(1,100):
         for j in range(5):
-            tomb[i][0] #befejezetlen
+            tomb[i][0][0:5] #befejezetlen
             
     #print(lottoszamok)
