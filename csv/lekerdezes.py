@@ -13,13 +13,22 @@ with open('H:\Lotto_projekt-LTP-6\csv\otos.csv', 'r') as file:
             continue
         else:
             line=line+1
+<<<<<<< HEAD
             
             tomb.append(row[0].split(';')[11:16])
+=======
+            #print(row)
+            line_tomb=[]
+            line_tomb.append(row[0].split(';')[11:16])
+            #print(line_tomb) 
+            tomb.append(line_tomb)
+>>>>>>> 166e89997fec901d75862328e5907b4fde49bd56
     #teszteléshez
     #print(tomb[0])
 
 #Beolvasás--------------------------
     sor_elso=[]
+<<<<<<< HEAD
     sor_elso.append(tomb[0][0:5])
     print(sor_elso)
 #Lekérdezés_1-----------------------
@@ -59,3 +68,29 @@ with open('H:\Lotto_projekt-LTP-6\csv\otos.csv', 'r') as file:
         seged_tomb=tomb[i]
         for j in range(10):
             
+=======
+    sor_elso.append(tomb[0][0][0:5])
+    print(sor_elso)
+#Lekérdezés_1-----------------------
+    sor_masodik=[]
+    sor_masodik.append(tomb[1][0][0:5])
+    print(sor_masodik)
+#lekérdezés_2-----------------------
+    lottoszamok=[]
+    
+    leggyakoribb=[]
+    for i in range(1,100):
+        leggyakoribb.append(i)
+    lottoszamok.append(leggyakoribb)
+    
+    db=[]
+    for i in leggyakoribb:
+        db.append(0)
+    lottoszamok.append(db)
+    
+    for i in range(1,100):
+        for j in range(5):
+            tomb[i][0][0:5] #befejezetlen
+            
+    #print(lottoszamok)
+>>>>>>> 166e89997fec901d75862328e5907b4fde49bd56
